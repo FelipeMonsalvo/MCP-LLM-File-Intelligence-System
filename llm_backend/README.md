@@ -27,6 +27,7 @@ source venv/bin/activate
 
 Windows PowerShell:
 .\venv\Scripts\Activate.ps1
+Note: Only do this if the venv files show up correctly
 
 5. Install dependencies
 pip install -r requirements.txt
