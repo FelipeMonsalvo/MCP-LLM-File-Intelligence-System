@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nimbus AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='style.css') }}">
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-content">
+        <div class="header-left">
+          <div class="profile-pic" id="profilePic">
+            <img id="profileImage" src="" alt="Profile" style="display: none;" />
+            <span id="profileInitials">👤</span>
+          </div>
+        </div>
+        <div class="header-right">
+          <span id="userName" class="user-name" style="display: none;">User Name</span>
+          <button id="logoutBtn" class="sign-in-btn" style="display: none;">Log Out</button>
+          <a href="/login" id="signInBtn" class="sign-in-btn">Sign In</a>
+        </div>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="chat-history-sidebar">
+        <div class="sidebar-header">
+          <h3>Chat History</h3>
+          <div class="sidebar-actions">
+            <button class="new-chat-icon" title="New Chat">+</button>
+            <button class="delete-all-icon" title="Delete All Chats" onclick="deleteAllChatSessions()">🗑️</button>
+          </div>
+        </div>
+        <div class="chat-list">
+        </div>
+      </div>
+      <div class="chat-container">
+        <div class="chat-box">
+          <div id="chat">
+            <div class="empty-state">
+              <p>Start a conversation by typing a message below.</p>
+            </div>
+          </div>
+          <div class="input-container">
+            <div class="input-wrapper">
+              <input id="input" type="text" placeholder="Type a message and press Enter" />
+              <button id="sendBtn" type="button" title="Send message">
+                <span>Send</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="{{ url_for('static', path='script.js') }}"></script>
+  </body>
+</html>
