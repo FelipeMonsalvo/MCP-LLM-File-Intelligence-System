@@ -1,6 +1,6 @@
-# Python Final Project — MCP File Search + LLM Backend
+# MCP File Search + LLM Backend
 
-This repository contains **Python_Final_Project**, integrating an MCP (Model Context Protocol) server for multi-backend file storage (Google Drive + Dropbox) with an LLM backend for intelligent natural-language query handling, persistent chat history, and user authentication.
+This repository contains the **MCP-Based LLM File Intelligence System**, integrating an MCP (Model Context Protocol) server for multi-backend file storage (Google Drive + Dropbox) with an LLM backend for intelligent natural-language query handling, persistent chat history, and user authentication.
 
 
 ## Overview
