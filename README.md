@@ -214,15 +214,15 @@ DATABASE_URL=postgresql://<user>:<password>@localhost:5432/python_final_project
 - **HTML / CSS / JavaScript** — frontend
 
 
-## Final Presentation / Demo Outline
+## Demo Outline
 
-### Introduction (~2 minutes)
+### Introduction
 
 - Introduce team members and roles
 - High-level overview of the project
 - Problem being solved and why it matters
 
-### Project Demonstration (~5 minutes)
+### Project Demonstration
 
 - Live walkthrough of the GUI
 - User login and authentication
@@ -230,7 +230,7 @@ DATABASE_URL=postgresql://<user>:<password>@localhost:5432/python_final_project
 - Switching between Google Drive and Dropbox
 - Demonstration of chat history persistence
 
-### Technical Details (~3 minutes)
+### Technical Details
 
 - Architecture overview (MCP Server + LLM Backend + Database)
 - How natural-language requests are translated into MCP actions
@@ -240,7 +240,7 @@ DATABASE_URL=postgresql://<user>:<password>@localhost:5432/python_final_project
   - Multi-backend abstraction
   - Maintaining conversational context
 
-### Conclusion (~2 minutes)
+### Conclusion
 
 - Summary of core features
 - Real-world applicability
